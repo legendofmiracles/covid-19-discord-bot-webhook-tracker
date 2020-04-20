@@ -1,7 +1,8 @@
 const covid = require('novelcovid');
 const discord = require('discord.js')
-const id = '';
-const token = '';
+require('dotenv').config()
+const id = process.env.id;
+const token = process.env.token;
 async function Corona() {
    // Specific Country
    let specificCountry = await covid.getCountry({country: 'Germany'});
