@@ -11,6 +11,6 @@
   "dependencies": {
     "discord.js": "^12.0.2",
     "dotenv": "^8.2.0",
-    "novelcovid": "^1.0.7-b3"
+    "novelcovid": "^1.2.6"
   }
 }
